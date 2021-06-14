@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package
+			uri = "http://www.xtext.org/example/mydsl3test/MyDslTest"
+			class = "org.xtext.example.mydsl3test.myDslTest.MyDslTestPackage"
+			genModel = "model/MyDslTest.genmodel" />
+	</extension>
+
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package
+			uri = "http://www.xtext.org/example/mydsl4test/OtherDsl"
+			class = "org.xtext.example.mydsl4test.otherDsl.OtherDslPackage"
+			genModel = "model/OtherDsl.genmodel" />
+	</extension>
+</plugin>

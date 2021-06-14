@@ -1,0 +1,9 @@
+grammar org.xtext.example.mydsl3test.MyDslTest with org.eclipse.xtext.common.Terminals
+
+import "http://www.xtext.org/example/mydsl3test/MyDslTest"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

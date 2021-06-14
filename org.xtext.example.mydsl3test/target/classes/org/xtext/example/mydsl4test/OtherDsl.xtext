@@ -1,0 +1,7 @@
+grammar org.xtext.example.mydsl4test.OtherDsl with org.xtext.example.mydsl3test.MyDslTest
+
+import "http://www.xtext.org/example/mydsl4test/OtherDsl"
+import "http://www.xtext.org/example/mydsl3test/MyDslTest" as mydsltest
+
+OtherRoot:
+value=Model;
